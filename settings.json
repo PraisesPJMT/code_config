@@ -1,0 +1,224 @@
+{
+	// "terminal.integrated.automationProfile.linux": {
+	// 	"terminal.integrated.shell.linux": "/bin/zsh",
+	// 	"terminal.integrated.shell.osx": "/bin/zsh"
+	// },
+
+	/**
+	 * General
+	 **/
+	"editor.minimap.enabled": false,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"editor.detectIndentation": false,
+	"code-runner.runInTerminal": true,
+	"editor.snippetSuggestions": "top",
+	"editor.guides.indentation": false,
+	"terminal.explorerKind": "external",
+	"explorer.confirmDragAndDrop": false,
+	"diffEditor.renderSideBySide": false,
+	"files.trimTrailingWhitespace": true,
+	"window.newWindowDimensions": "inherit",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"workbench.editor.enablePreview": false,
+	"editor.emptySelectionClipboard": false,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+
+	// "editor.lineNumbers": "off",
+	// "window.nativeFullScreen": true,
+	// "workbench.editor.showTabs": "none",
+
+	// Silence the Noise
+	"editor.hover.delay": 500,
+	"breadcrumbs.enabled": false,
+	"editor.hover.enabled": true,
+	"scm.diffDecorations": "none",
+	"editor.matchBrackets": "never",
+	"workbench.tips.enabled": false,
+	"editor.colorDecorators": false,
+	"workbench.startupEditor": "none",
+	"editor.lightbulb.enabled": "off",
+	"editor.selectionHighlight": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "none",
+	"editor.occurrencesHighlight": "off",
+	"problems.decorations.enabled": false,
+	"editor.renderControlCharacters": false,
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+	/**
+	 * Appearance
+	 **/
+	"editor.lineHeight": 30,
+	"editor.padding.top": 16,
+	"editor.fontWeight": "400",
+	"editor.cursorBlinking": "solid",
+	"material-icon-theme.saturation": 0,
+	"window.menuBarVisibility": "toggle",
+	"editor.stickyScroll.enabled": false,
+	"workbench.colorTheme": "React Theme",
+	"workbench.sideBar.location": "right",
+	"workbench.activityBar.location": "hidden",
+	"workbench.tree.enableStickyScroll": false,
+	"material-icon-theme.files.color": "#42a5f5",
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"workbench.iconTheme": "eq-material-theme-icons-darker",
+	// "workbench.statusBar.visible": false,
+
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"keyword",
+					"storage.type",
+					"comment.line",
+					"comment.block",
+					"keyword.control",
+					"variable.language",
+					"entity.other.attribute-name",
+					"entity.other.attribute-name.html"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"vscode_custom_css.imports": [
+		"file:///home/praisestula/Documents/Extentions/code_config/vscode.js",
+		"file:///home/praisestula/Documents/Extentions/code_config/vscode.css"
+	],
+
+	/**
+	 * Git
+	 **/
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.decorations.enabled": false,
+
+	/**
+	 * Codeium
+	 **/
+	"codeium.enableConfig": {
+		"*": true,
+		"markdown": true,
+		"plaintext": true
+	},
+
+	/**
+	 * Typography
+	 **/
+	"editor.suggestFontSize": 16,
+	"search.useIgnoreFiles": false,
+	"editor.suggestLineHeight": 30,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.lineHeight": 1.5,
+	"editor.fontFamily": "MesloLGM Nerd Font, Liberation Mono, Monospace",
+
+	"search.exclude": {
+		"**/dist": true,
+		"storage": true,
+		"**/node_modules": true,
+		"**/composer.lock": true,
+		"**/_ide_helper.php": true,
+		"**/package-lock.json": true,
+		".phpunit.result.cache": true,
+		"**/public/{[^i],?[^n]}*": true, // Hide everything in /public, except "index.php"
+		"**/vendor/{[^l],?[^ai]}*": true // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+	},
+
+	/**
+	 * Code
+	 **/
+	// Include "-" in word selection.
+	"editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+	"emmet.includeLanguages": {
+		"vue": "html",
+		"blade": "html",
+		"react": "html",
+		"vue-html": "html",
+		"javascript": "html"
+	},
+
+	/**
+	 * Prettier
+	 **/
+	"prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.singleQuote": true,
+	"prettier.requireConfig": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.useEditorConfig": false,
+
+	"editor.fontSize": 16,
+	"editor.formatOnSave": true,
+	"editor.linkedEditing": true,
+	"editor.formatOnPaste": true,
+	"editor.wordWrapColumn": 120,
+	"editor.minimap.maxColumn": 250,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.accessibilitySupport": "off",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+	// "editor.fontLigatures": false,
+
+	"explorer.sortOrder": "type",
+	"explorer.confirmDelete": false,
+
+	"workbench.tree.indent": 15,
+	"diffEditor.wordWrap": "on",
+	"chat.editor.wordWrap": "on",
+	"files.autoSave": "afterDelay",
+	"notebook.output.wordWrap": true,
+	"reactSnippets.settings.prettierEnabled": true,
+
+	"[html]": {
+		"editor.formatOnSave": true
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	}
+
+	/*
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[tailwindcss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+    */
+}
